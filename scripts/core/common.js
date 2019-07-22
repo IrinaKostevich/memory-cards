@@ -16,13 +16,6 @@ export function pickRandomItems(array, pickCount) {
     return pickedArray;
 }
 
-// export function shuffleItems(array) {
-//     const shuffledIndexes = randomNumbers(array.length, 0, array.length - 1);
-//     const shuffledArray = shuffledIndexes.map(index => array[index]);
-
-//     return shuffledArray;
-// }
-
 export function shuffleItems(array) {
     const shuffledArray = [...array];
 

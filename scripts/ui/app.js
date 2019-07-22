@@ -1,5 +1,3 @@
-import { MemoryCardElement } from "./memory-card.js";
-
 export class App {
     constructor(document, memoryCardService) {
         if (!memoryCardService) throw new Error('memoryCardService is not provided.');
@@ -23,7 +21,6 @@ export class App {
 
     _onCardClick(event) {
         const memoryCard = event.target.closest('memory-card');
-       // event.path.find(element => element instanceof MemoryCardElement);
 
         if (!memoryCard) return;
 
