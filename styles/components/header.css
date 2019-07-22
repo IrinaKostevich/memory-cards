@@ -1,0 +1,17 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0 0 5px gray;
+    background-color: white;
+}
+
+.header .header-title {
+    font-family: Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
