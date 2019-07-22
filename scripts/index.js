@@ -8,5 +8,5 @@ document.addEventListener('DOMContentLoaded', () => {
     const memoryCardService = new MemoryCardService();
     const app = new App(document, memoryCardService);
 
-    app.start(16);
+    app.start(15);
 });
