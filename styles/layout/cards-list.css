@@ -7,3 +7,9 @@
 .l-cards-list > * {
     margin: 1rem 0.5rem;
 }
+
+@media only screen and (max-width: 450px) {
+    .l-cards-list > * {
+        margin: 0.5rem 0.25rem;
+    }
+}

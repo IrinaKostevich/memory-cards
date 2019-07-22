@@ -22,7 +22,8 @@ export class App {
     }
 
     _onCardClick(event) {
-        const memoryCard = event.path.find(element => element instanceof MemoryCardElement);
+        const memoryCard = event.target.closest('memory-card');
+       // event.path.find(element => element instanceof MemoryCardElement);
 
         if (!memoryCard) return;
 
